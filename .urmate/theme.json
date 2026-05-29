@@ -1,0 +1,22 @@
+{
+  "name": "Harbor Signal",
+  "author": "Urmate",
+  "description": "A clear product workspace theme with coastal greens, warm action color, and calm surfaces.",
+  "tokens": {
+    "background": "#f4fbf8",
+    "surface": "#ffffff",
+    "ink": "#16201d",
+    "muted": "#60746f",
+    "primary": "#0f766e",
+    "accent": "#f59e0b",
+    "secondary": "#2563eb",
+    "line": "#d5e8e2"
+  },
+  "motion": {
+    "enter": "240ms soft rise",
+    "feedback": "slow status sweep",
+    "emphasis": "subtle lift on actionable panels"
+  },
+  "radius": "16px",
+  "shadow": "0 24px 70px rgba(15, 118, 110, 0.14)"
+}

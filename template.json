@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "nextjs-nodejs",
+  "aliases": [],
+  "name": "Next.js + Node.js Monorepo",
+  "type": "monorepo",
+  "category": "fullstack",
+  "author": "Urmate",
+  "createdAt": "2026-05-29",
+  "stack": [
+    "Next.js",
+    "Node.js",
+    "TypeScript"
+  ],
+  "tags": [
+    "nextjs",
+    "nodejs",
+    "fullstack",
+    "monorepo"
+  ],
+  "path": "monorepo/nextjs-nodejs",
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "preview": "http://localhost:3000"
+  },
+  "features": [
+    "Root workspaces",
+    "Next.js frontend",
+    "Node.js backend",
+    "API proxy route"
+  ],
+  "theme": {
+    "name": "Harbor Signal",
+    "description": "A clear product workspace theme with coastal greens, warm action color, and calm surfaces.",
+    "colors": {
+      "background": "#f4fbf8",
+      "surface": "#ffffff",
+      "ink": "#16201d",
+      "muted": "#60746f",
+      "primary": "#0f766e",
+      "accent": "#f59e0b",
+      "secondary": "#2563eb",
+      "line": "#d5e8e2"
+    },
+    "motion": {
+      "enter": "240ms soft rise",
+      "feedback": "slow status sweep",
+      "emphasis": "subtle lift on actionable panels"
+    },
+    "radius": "16px",
+    "shadow": "0 24px 70px rgba(15, 118, 110, 0.14)",
+    "author": "Urmate"
+  },
+  "builder": {
+    "compatibleWith": "Urmate Builder",
+    "starterMode": "template",
+    "previewPort": 3000,
+    "notes": "Copy the template folder into a new builder workspace and run the dev command."
+  }
+}
